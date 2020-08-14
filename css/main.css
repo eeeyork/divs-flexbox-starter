@@ -97,13 +97,14 @@ textarea {
 
 
 html {
-  background-color: #ecd608;
+  background-color: #2e98c2;
   height: 100%;
 }
 
 body {
   font-family: 'Nanum Myeongjo';
   padding: 2em;
+  color: #2f3233
   font-size: 1em;
   height: 100%;
   background-color: #f5e76a;
@@ -121,15 +122,37 @@ body {
   color: #;
   line-height: 1.5em;
   font-size: 1em;
-  border-left: 1px solid #ffffff;
   padding: 20px 10px;
   display: flex;
   width: 30%;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  flex-flow: row wrap;
 }
 
+.header, .about {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 
+.about{
+    font-size: .85em;
+}
+
+.break {
+    border-bottom: 2px solid #ffffff;
+    margin: 20px 0;
+}
+
+.break-two {
+    border-left: 1px solid #ffffff;
+    padding: 5px;
+}
+
+.about span {
+    font-weight: 800;
+}
 
 
 /* ==========================================================================
